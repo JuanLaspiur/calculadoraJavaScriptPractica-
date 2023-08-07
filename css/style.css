@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+
+
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+font-family: 'Nunito Sans', sans-serif;
+
+}
+
+h1{  
+color:#DC3545;
+margin-left: 25%;
+font-weight: bold;
+text-shadow: 1px 2px 3px rgba(255, 255, 255, 0.121);
+
+}
+
+body{
+background: #084198;
+
+
+}
+
+html{
+    font-family:'Georama', sans-serif;
+    font-size: 62.5%;
+
+
+}
+
+
+.conteiner{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+padding: 15px;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    font-size:2rem;
+    border: 1px solid #0D6EFD ;
+    
+
+
+}
+
+.calculator-display{
+    background-color: #e8e9ea;
+    padding:  25px 15px;
+    width: 100%;
+    text-align: right;
+    border: 1 solid #ADB5BD;
+    overflow-x:auto;
+
+}
+
+.calculator-keypad{
+    display: flex;
+    width: 100%;
+
+}
+.keypad-numbers{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+
+}
+
+.keypad-button{
+
+width: 25%;
+padding: 15px 0;
+text-align: center;
+cursor:pointer;
+background-color: white;
+border: 1px solid #ADB5BD;
+
+}
+.keypad-button:hover{
+filter:brightness(80%);
+transition: filter .25s;
+
+}
+
+.keypad-button.yellow{
+background-color: #FFC107;
+
+
+}
+
+.keypad-button.dark{
+    background-color: lightgray;
+    
+    
+    }
+
+.keypad-button.large{
+  width: 50%;
+
+} 

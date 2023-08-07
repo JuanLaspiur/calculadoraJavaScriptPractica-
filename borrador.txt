@@ -1,0 +1,92 @@
+colores:
+metal:
+#ADB5BD
+Gris oscuro, mas opaco:
+#676D73
+
+primary:
+#0D6EFD
+Danger(rojo)
+#DC3545
+Amarillo:
+#FFC107
+verde:
+#198754
+
+azul osuro 
+#084198
+
+azul oscuro-:
+#0B58CA
+
+azul:
+#0D6EFD
+
+azul-:
+#6EA7FE
+
+celeste:
+#9EC5FE
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+boostrap-size:
+Móviles: entre 320 y 480 píxeles.
+Tablets: entre 768 y 1024 píxeles.
+Pantallas grandes: más de 1200 píxeles.
+
+font-family:
+Nunito Sans
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+font-family: 'Nunito Sans', sans-serif;
+
+Quicksand
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+font-family: 'Quicksand', sans-serif;
+
+titulo---font-family
+Bebas Neue
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+font-family: 'Bebas Neue', cursive;
+
+Tinos
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+font-family: 'Tinos', serif;
+
+
+mediaquoris
+
+
+
+Breakpoint	Class infix	Dimensions
+X-Small				0–576px
+Small	sm				≥576px
+Medium				≥768px
+Large	lg				≥992px
+Extra large	xl			≥1200px
+Extra extra large	xxl		≥1400px
+
+/*responsible*/
+
+/*Chequeado--Esta bien el oden*/
+
+
+/*Extra-Large*/@media 	(max-width:1399px){}
+/*Large*/@media 	(max-width:1199px){}
+
+/*Medium*/@media 	(max-width:991px){}
+
+/*Small*/@media 	(max-width:767px){}
+/*X-Small*/	@media	(max-width:576px){}
+
+
+
+
+
+
+
+
+
